@@ -5,6 +5,7 @@ shallow_clone: true
 branches:
   only:
     - master
+    - fast_ci
 
 # this a not a .NET project in all cases - we will build during install phase
 build: false
